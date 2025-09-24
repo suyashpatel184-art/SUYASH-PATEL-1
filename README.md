@@ -79,4 +79,97 @@
     }
 
     section {
-    
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    h2 {
+      margin-top: 0;
+      color: #2e7d32;
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 8px 12px;
+      font-size: 1.2em;
+      color: #333;
+      transition: color 0.3s, transform 0.3s;
+    }
+    .social-links a:hover {
+      color: #4CAF50;
+      transform: scale(1.1);
+    }
+    footer {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- यहाँ आपका नया लोगो लगाएँ -->
+    <img src="suyash-logo-2025.png" alt="SUYASH PATEL लोगो" />
+    <h1>नमस्ते, मैं SUYASH PATEL</h1>
+    <p>मेरे व्यक्तिगत वेबसाइट पर आपका स्वागत है</p>
+  </header>
+
+  <nav>
+    <a href="#about">मेरे बारे में</a>
+    <a href="#work">मेरा काम</a>
+    <a href="#contact">संपर्क करें</a>
+  </nav>
+
+  <section id="about">
+    <div class="card">
+      <h2><i class="fa-solid fa-user"></i> मेरे बारे में</h2>
+      <p>मेरा नाम <strong>SUYASH PATEL</strong> है।  
+      मुझे तकनीक, पढ़ाई और ऐसे प्रोजेक्ट बनाने का शौक है जो लोगों की समस्याओं का हल निकाल सकें।</p>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="card">
+      <h2><i class="fa-solid fa-briefcase"></i> मेरा काम</h2>
+      <ul>
+        <li>📱 प्रोजेक्ट 1 – छोटा विवरण</li>
+        <li>💻 प्रोजेक्ट 2 – छोटा विवरण</li>
+        <li>🌐 प्रोजेक्ट 3 – छोटा विवरण</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2><i class="fa-solid fa-envelope"></i> संपर्क करें</h2>
+      <p>📧 ईमेल: <a href="mailto:suyash@email.com">suyash@email.com</a></p>
+      <p>📞 फ़ोन: +91-9174589326</p>
+
+      <div class="social-links">
+        <h3>सोशल मीडिया</h3>
+        <a href="https://wa.me/919174589326" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://instagram.com/mr_suyash_patel_305" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="https://linkedin.com/in/yourid" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/yourid" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SUYASH PATEL. सर्वाधिकार सुरक्षित।</p>
+  </footer>
+</body>
+</html>
