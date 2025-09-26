@@ -66,7 +66,8 @@
     </div>
   </section>
   <footer>
-    <p>&copy; 2025 SUYASH PATEL. सर्वाधिकार सुरक्षित।</p>. MANAGE BY 
+    <p>&copy; 2025 SUYASH PATEL. सर्वाधिकार सुरक्षित।</p>. MANAGE BY ANKUSH PATEL 
+    
   </footer>
 </body>
 </html>
